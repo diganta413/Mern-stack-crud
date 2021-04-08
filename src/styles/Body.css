@@ -1,0 +1,21 @@
+.body{
+    padding: 20px;
+}
+.table_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: gray;
+    font-size: 30px;
+    border-radius: 60px;
+    width: 50%;
+    margin: 0 auto;
+}
+p{
+    margin: 0 20px;
+    padding: 20px;
+}
+hr{
+    width: 50%;
+    margin: 0 auto;
+}

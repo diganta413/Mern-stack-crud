@@ -1,0 +1,19 @@
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
+    height: 50vh;
+    overflow-y: overlay;
+}
+.item h1{
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 70px !important;
+}
+.item button{
+    width: 300px;
+    padding: 1%;
+    border-radius: 30px;
+    margin: 15px auto;
+}

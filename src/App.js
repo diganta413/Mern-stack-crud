@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar"
 import Body from './components/Body';
 import Createlist from "./components/Createlist";
 import Item from "./components/Item";
+import Update from "./components/Update";
 
 function App() {
   return (
@@ -11,6 +12,9 @@ function App() {
       <Router>
       <Navbar/>
         <Switch>
+        <Route path="/item/:itemid/update">
+              <Update />
+          </Route>
         <Route path="/item/:itemid">
               <Item />
           </Route>
